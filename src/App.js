@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import UserModule from './UserModule';
+import LoginModule from './LoginModule';
 import './App.css';
 
 export function App(props) {
@@ -9,6 +10,7 @@ export function App(props) {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <UserModule />
+        <LoginModule />
         <a  
           className="App-link"
           href="https://reactjs.org"

@@ -9,7 +9,7 @@ export const User = props => (
 </div>);
 
 const mapStateToProps = store =>({ 
-    contador: store && store.user.contador,
+    contador: store && store.login.contador,
     usuario: store.user.usuario,
  });
 
