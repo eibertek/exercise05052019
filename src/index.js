@@ -5,8 +5,9 @@ import { Provider } from 'react-redux';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { CONTADOR } from './UserModule/redux/userActions';
 
-setInterval(() => dispatch({ type: 'contador'}), 2000);
+setInterval(() => dispatch({ type: CONTADOR }), 2000);
 
 ReactDOM.render(<Provider store={store}>
     <App />
